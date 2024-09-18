@@ -19,7 +19,7 @@ jobs:
           host: ${{ secrets.CPANEL_HOST }}   # Alamat server CPanel Anda
           username: ${{ secrets.CPANEL_USER }} # Username CPanel
           key: ${{ secrets.CPANEL_SSH_KEY }}  # Tambahkan private key di Secrets GitHub
-        #   passphrase: ${{ secrets.CPANEL_SSH_PASSPHRASE }} # Jika ada passphrase
+          passphrase: ${{ secrets.CPANEL_SSH_PASSPHRASE }} # Jika ada passphrase
 
           script: |
             cd /public_html
