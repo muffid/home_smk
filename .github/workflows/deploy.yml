@@ -1,0 +1,31 @@
+name: Deploy Laravel App to CPanel
+
+on:
+  push:
+    branches:
+      - main  # Sesuaikan dengan branch yang ingin Anda gunakan
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to CPanel via SSH
+        uses: appleboy/ssh-action@v0.1.3
+        with:
+          host: ${{ secrets.CPANEL_HOST }}   # Alamat server CPanel Anda
+          username: ${{ secrets.CPANEL_USER }} # Username CPanel
+          key: ${{ secrets.CPANEL_SSH_KEY }}  # Tambahkan private key di Secrets GitHub
+        #   passphrase: ${{ secrets.CPANEL_SSH_PASSPHRASE }} # Jika ada passphrase
+
+          script: |
+            cd /public_html
+            git pull origin main
+            composer install --no-interaction --prefer-dist --optimize-autoloader
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
