@@ -26,7 +26,7 @@ jobs:
           username: ${{ secrets.CPANEL_USER }} # Username CPanel
           key: ${{ secrets.CPANEL_SSH_KEY }}  # Tambahkan private key di Secrets GitHub
           # Jika SSH Key Anda tidak memiliki passphrase, hapus baris di bawah ini
-          passphrase: ${{ secrets.SSH_PASSPHRASE }} # Hapus baris ini jika tidak diperlukan
+          # passphrase: ${{ secrets.SSH_PASSPHRASE }} # Hapus baris ini jika tidak diperlukan
           port: 65002  # Sesuaikan port SSH di server cPanel (biasanya 22)
           script: |
             cd /public_html/lukimme  # Ganti dengan direktori yang sesuai di server Anda
