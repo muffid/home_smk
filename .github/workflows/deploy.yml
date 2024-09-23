@@ -26,7 +26,7 @@ jobs:
           username: ${{ secrets.CPANEL_USER }} # Username CPanel
           key: ${{ secrets.CPANEL_SSH_KEY }}  # Tambahkan private key di Secrets GitHub
           passphrase: ${{ secrets.SSH_PASSPHRASE }} # Jika tidak ada passphrase, hapus baris ini
-       
+          port: 65002
           script: |
             cd /public_html
             git pull origin main
