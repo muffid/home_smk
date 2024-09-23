@@ -161,14 +161,14 @@
 
         <div class="container-fluid">
             <div class="copyright">
-                &copy; Copyright <strong><span>SMKBM2022</span></strong>. All Rights Reserved
+                Copyright &copy; <span><strong>2022 - {{ date('Y') }}</strong> Budi Mulia Vocational</span>. All Rights
+                Reserved
             </div>
             <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/multi-responsive-bootstrap-template/ -->
-                Designed by <a href="#">Team Creative uhuiii</a>
+
+
+                Developed by <strong>IT BMDev and SIJA major.</strong>
+
             </div>
         </div>
     </footer><!-- End Footer -->
