@@ -20,12 +20,12 @@ jobs:
           username: ${{ secrets.CPANEL_USER }} # Username CPanel
           key: ${{ secrets.CPANEL_SSH_KEY }}  # Tambahkan private key di Secrets GitHub
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
-       
+          port: 2222
           script: |
             cd /public_html
             git pull origin main
             composer install --no-interaction --prefer-dist --optimize-autoloader
-            php artisan migrate --force
+            # php artisan migrate --force
             php artisan config:cache
             php artisan route:cache
             php artisan view:cache
