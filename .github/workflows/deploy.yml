@@ -3,7 +3,7 @@ name: Deploy Laravel App to CPanel
 on:
   push:
     branches:
-      - main  # Sesuaikan dengan branch yang ingin Anda gunakan
+      - main  # Sesuaikan dengan branch yang ingin digunakan
 
 jobs:
   deploy:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Versi checkout terbaru
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y unzip php-cli
@@ -25,13 +25,14 @@ jobs:
           host: ${{ secrets.CPANEL_HOST }}   # Alamat server CPanel Anda
           username: ${{ secrets.CPANEL_USER }} # Username CPanel
           key: ${{ secrets.CPANEL_SSH_KEY }}  # Tambahkan private key di Secrets GitHub
-          passphrase: ${{ secrets.SSH_PASSPHRASE }} # Jika tidak ada passphrase, hapus baris ini
-          # port: 65002
+          # Jika SSH Key Anda tidak memiliki passphrase, hapus baris di bawah ini
+          passphrase: ${{ secrets.SSH_PASSPHRASE }} # Hapus baris ini jika tidak diperlukan
+          port: 65002  # Sesuaikan port SSH di server cPanel (biasanya 22)
           script: |
-            cd /public_html
-            git pull origin main
-            composer install --no-interaction --prefer-dist --optimize-autoloader
-            # php artisan migrate --force # Aktifkan jika migrasi diperlukan
-            php artisan config:cache
-            php artisan route:cache
-            php artisan view:cache
+            cd /public_html/lukimme  # Ganti dengan direktori yang sesuai di server Anda
+            git pull origin main  # Menarik perubahan terbaru dari branch 'main'
+            composer install --no-interaction --prefer-dist --optimize-autoloader  # Menginstall dependency
+            php artisan config:cache  # Optimasi konfigurasi
+            php artisan route:cache   # Optimasi route
+            php artisan view:cache    # Optimasi view
+            # php artisan migrate --force  # Aktifkan jika Anda ingin menjalankan migrasi
