@@ -13,19 +13,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y unzip php-cli
+
+      - name: Install Composer
+        run: curl -sS https://getcomposer.org/installer | php && sudo mv composer.phar /usr/local/bin/composer
+
       - name: Deploy to CPanel via SSH
         uses: appleboy/ssh-action@v0.1.3
         with:
           host: ${{ secrets.CPANEL_HOST }}   # Alamat server CPanel Anda
           username: ${{ secrets.CPANEL_USER }} # Username CPanel
           key: ${{ secrets.CPANEL_SSH_KEY }}  # Tambahkan private key di Secrets GitHub
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
-          port: 2222
+          passphrase: ${{ secrets.SSH_PASSPHRASE }} # Jika tidak ada passphrase, hapus baris ini
+       
           script: |
             cd /public_html
             git pull origin main
             composer install --no-interaction --prefer-dist --optimize-autoloader
-            # php artisan migrate --force
+            # php artisan migrate --force # Aktifkan jika migrasi diperlukan
             php artisan config:cache
             php artisan route:cache
             php artisan view:cache
