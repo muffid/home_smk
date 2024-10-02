@@ -22,3 +22,7 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+# Folder Dashboar dan API
+admin.smkbudimuliapakisaji.sch.id/
+api/
