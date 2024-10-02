@@ -29,17 +29,17 @@
     <div class="container" style="padding-right: 650px;">
         <hr>
     </div>
-    <section id=" about" class="about mt-0">
+    <section id="about" class="about mt-0">
         <div class="container aos-init aos-animate" data-aos="fade-up">
             <div class="row align-items-center">
                 <div class="pt-4 pt-lg-0 order-2 order-lg-2 content">
                     <h3 class="fw-bold">SMK Budi Mulia Pakisaji</h3>
                     <h3 class="fw-bold">adalah tempatnya!</h3>
                     <p>Dengan 5 jurusan unggulan yang dirancang untuk masa depan profesionalmu:</p>
-                    <div class="inlane-block">
+                    <div class="inline-block">
                         <div class="row">
                             <div class="col-lg-4 col-md-6 mb-4">
-                                <div class="card" style="width: 25rem;">
+                                <div class="card" style="width: 100%;">
                                     <img src="img/1.png" class="card-img-top p-3" style="width: 100px;" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">TKJ</h5>
@@ -49,8 +49,8 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6 mb-4 ">
-                                <div class="card" style="width: 24rem;">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card" style="width: 100%;">
                                     <img src="img/2.png" class="card-img-top p-3" style="width: 100px;" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">DKV</h5>
@@ -60,8 +60,8 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6 mb-4 ">
-                                <div class="card" style="width: 24rem;">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card" style="width: 100%;">
                                     <img src="img/3.png" class="card-img-top p-3" style="width: 100px;" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">BDP</h5>
@@ -71,34 +71,34 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6 mb-4 ">
-                                <div class="card" style="width: 24rem;">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card" style="width: 100%;">
                                     <img src="img/4.png" class="card-img-top p-3" style="width: 100px;" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">SIJA</h5>
                                         <p class="card-text">Sistem Informatika, Jaringan, dan Aplikasi (SIJA) – Pionir
-                                            di dunia IT dan aplikasi</p>
+                                            di dunia IT dan aplikasi.</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6 mb-4 ">
-                                <div class="card" style="width: 24rem;">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card" style="width: 100%;">
                                     <img src="img/5.png" class="card-img-top p-3" style="width: 100px;" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">TBSM</h5>
-                                        <p class="card-text">Teknik Bisnis Sepeda Motor (TBSM) – Master di
-                                            bidang otomotif.</p>
+                                        <p class="card-text">Teknik Bisnis Sepeda Motor (TBSM) – Master di bidang
+                                            otomotif.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
 
+        <!-- Konten tambahan -->
         <div class="container aos-init aos-animate mt-5" data-aos="fade-up">
             <div class="row align-items-center">
                 <div class="col-lg-5 order-2 order-lg-2 aos-init" data-aos="fade-up" data-aos-delay="100">
@@ -106,10 +106,9 @@
                 </div>
                 <div class="col-lg-7 pt-4 pt-lg-0 order-1 order-lg-1 content">
                     <h3>Apa Kelebihan dari Doubel Degree itu?</h3>
-                    <p><b>Double Degree</b> adalah kelas yang dimana Selain Mendapat Ijazah siswa - siswi
-                        yang tergabung
-                        dalam kelas ini akan mendapat sertifikat kompetensi dari industri rekanan</p>
-                    <p>kelas <b>Double Degree</b> antara lain :</p>
+                    <p><b>Double Degree</b> adalah kelas yang dimana Selain Mendapat Ijazah siswa - siswi yang tergabung
+                        dalam kelas ini akan mendapat sertifikat kompetensi dari industri rekanan.</p>
+                    <p>kelas <b>Double Degree</b> antara lain:</p>
                     <ul>
                         <li><i class="bi bi-check2-circle"></i> Perhotelan</li>
                         <li><i class="bi bi-check2-circle"></i> Tata Boga</li>
@@ -120,22 +119,17 @@
             </div>
         </div>
 
+        <!-- Konten lain -->
         <div class="container aos-init aos-animate mt-5" data-aos="fade-up">
             <div class="row align-items-center">
                 <div class="col-lg-5 pt-4 pt-lg-0 order-1 order-lg-2 content">
-                    <p>Dengan Bergabung di SMK budi Mulia Pakisaji Kalian tidak Menunggu <b>LULUS</b> Baru
-                        bisa Dapat
-                        <b>PENGHASILAN</b> Tapi Saat <b>SEKOLAH</b> Kalian Sudah Bisa Dapat <b>Gaji</b> &
-                        dapat
-                        <b>Bersekolah Gratis</b>.
-                    </p>
-                    {{-- <p><b>Free</b> Formulir Untuk Pendaftaran di Bulan <b>Desember</b></p> --}}
-                    {{-- <p>Kalian Tertarik gak nih?? Segera Daftarkan Diri Kalian Disini dan dapatkan bonus menarik lainnya <b>bagi 100 pendaftar pertama</b>. untuk daftar bisa klik link di bawah ini</p> --}}
+                    <p>Dengan Bergabung di SMK Budi Mulia Pakisaji Kalian tidak Menunggu <b>LULUS</b> Baru bisa Dapat
+                        <b>PENGHASILAN</b> Tapi Saat <b>SEKOLAH</b> Kalian Sudah Bisa Dapat <b>Gaji</b> & dapat
+                        <b>Bersekolah Gratis</b>.</p>
                 </div>
                 <div class="col-lg-7 pt-4 pt-lg-0 order-2 order-lg-1">
                     <img src="img/img7.png" class="img-fluid" alt="Gedung2">
                 </div>
-
             </div>
         </div>
 
@@ -145,24 +139,11 @@
                     <img src="img/img2222.png" class="img-fluid" alt="Gedung2">
                 </div>
                 <div class="col-lg-8 pt-4 pt-lg-0 order-1 order-lg-1 content">
-                    <!--<p><b>Free</b> Formulir Untuk Pendaftaran di Bulan <b>Desember</b></p>-->
-                    <p>jadi gimana Kalian Tertarik gak nih?? Segera Daftarkan Diri Kalian Disini dan
-                        dapatkan bonus
-                        menarik lainnya <b>bagi 100 pendaftar pertama</b>. untuk daftar bisa klik link di
-                        bawah ini</p>
+                    <p>jadi gimana Kalian Tertarik gak nih?? Segera Daftarkan Diri Kalian Disini dan dapatkan bonus
+                        menarik lainnya <b>bagi 100 pendaftar pertama</b>. untuk daftar bisa klik link di bawah ini.</p>
                 </div>
             </div>
         </div>
-
-        <div class="container aos-init aos-animate mt-3" data-aos="fade-up" id="gel">
-            <div class="row align-items-center">
-                <div class="col-12 pt-4 pt-lg-0 text-center">
-                    <!--<img src="img/pdb.jpg"class="img-fluid" style="width:70%;height:auto;">-->
-                    <!--<a href="img/pdb.jpg" class="fullscreen img-fluid"><img src="img/pdb.jpg"  style="width:70%;height:auto;"></a>-->
-                </div>
-            </div>
-        </div>
-
     </section>
     <section id="" class="container text-center my-0">
         <div class="row justify-content-around">
