@@ -40,7 +40,7 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class="card" style="width: 24rem;">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="img/1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">TKJ</h5>
                                         <p class="card-text">Teknik Komputer dan Jaringan (TKJ) – Ahli teknologi
@@ -51,7 +51,7 @@
 
                             <div class="col-lg-4 col-md-6 mb-4 ">
                                 <div class="card" style="width: 24rem;">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="img/2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">DKV</h5>
                                         <p class="card-text">Desain Komunikasi Visual (DKV) – Kreativitas tanpa batas
@@ -62,7 +62,7 @@
 
                             <div class="col-lg-4 col-md-6 mb-4 ">
                                 <div class="card" style="width: 24rem;">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="img/3.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">BDP</h5>
                                         <p class="card-text">Bisnis Daring dan Pemasaran (BDP) – Jago pemasaran online
@@ -73,7 +73,7 @@
 
                             <div class="col-lg-4 col-md-6 mb-4 ">
                                 <div class="card" style="width: 24rem;">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="img/4.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">SIJA</h5>
                                         <p class="card-text">Sistem Informatika, Jaringan, dan Aplikasi (SIJA) – Pionir
@@ -84,7 +84,7 @@
 
                             <div class="col-lg-4 col-md-6 mb-4 ">
                                 <div class="card" style="width: 24rem;">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="img/5.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">TBSM</h5>
                                         <p class="card-text">Teknik Bisnis Sepeda Motor (TBSM) – Master di
