@@ -27,7 +27,7 @@
         </div>
     </section>
     <div class="container">
-        <hr>
+        <hr style="width: 25%;">
     </div>
     <section id="about" class="about mt-0">
         <div class="container aos-init aos-animate" data-aos="fade-up">
@@ -105,15 +105,15 @@
                     <img src="img/img6.png" class="img-fluid" alt="Gedung2">
                 </div>
                 <div class="col-lg-7 pt-4 pt-lg-0 order-1 order-lg-1 content">
-                    <h3>Apa Kelebihan dari Doubel Degree itu?</h3>
-                    <p><b>Double Degree</b> adalah kelas yang dimana Selain Mendapat Ijazah siswa - siswi yang tergabung
-                        dalam kelas ini akan mendapat sertifikat kompetensi dari industri rekanan.</p>
-                    <p>kelas <b>Double Degree</b> antara lain:</p>
+                    <h3>💡 Selain itu, beragam kelas keterampilan tambahan siap memperkaya dirimu</h3>
+                    <p>Tunggu apa lagi? Kembangkan bakat dan minatmu dengan berbagai kelas keterampilan tambahan yang
+                        bisa kamu ikuti:</p>
+
                     <ul>
                         <li><i class="bi bi-check2-circle"></i> Perhotelan</li>
                         <li><i class="bi bi-check2-circle"></i> Tata Boga</li>
-                        <li><i class="bi bi-check2-circle"></i> Otomotif</li>
-                        <li><i class="bi bi-check2-circle"></i> MUA</li>
+                        <li><i class="bi bi-check2-circle"></i> Tata Rias/MUA</li>
+
                     </ul>
                 </div>
             </div>
