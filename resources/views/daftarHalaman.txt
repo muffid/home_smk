@@ -1,0 +1,4 @@
+1. Halaman Profil = profil.blade
+2. Halaman Hasil Dari pencarian = search.blade
+3. Halaman Prestasi = prestasi.blade
+4. 
