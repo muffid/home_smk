@@ -86,8 +86,8 @@
                                 <div class="card" style="width: 100%;">
                                     <img src="img/5.png" class="card-img-top p-3" style="width: 100px;" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">TBSM</h5>
-                                        <p class="card-text">Teknik Bisnis Sepeda Motor (TBSM) – Master di bidang
+                                        <h5 class="card-title">TBKR</h5>
+                                        <p class="card-text">Teknik Bodi Kendaraan Ringan (TBKR) – Master di bidang
                                             otomotif.</p>
                                     </div>
                                 </div>
@@ -125,7 +125,8 @@
                 <div class="col-lg-5 pt-4 pt-lg-0 order-1 order-lg-2 content">
                     <p>Dengan Bergabung di SMK Budi Mulia Pakisaji Kalian tidak Menunggu <b>LULUS</b> Baru bisa Dapat
                         <b>PENGHASILAN</b> Tapi Saat <b>SEKOLAH</b> Kalian Sudah Bisa Dapat <b>Gaji</b> & dapat
-                        <b>Bersekolah Gratis</b>.</p>
+                        <b>Bersekolah Gratis</b>.
+                    </p>
                 </div>
                 <div class="col-lg-7 pt-4 pt-lg-0 order-2 order-lg-1">
                     <img src="img/img7.png" class="img-fluid" alt="Gedung2">
