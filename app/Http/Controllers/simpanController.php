@@ -19,8 +19,8 @@ class SimpanController extends Controller
         curl_setopt_array($curl, [
 
         //sesuaikan alamat endpoint API
-        // CURLOPT_URL => 'https://api.smkbudimuliapakisaji.sch.id/dataPPDB',
-        CURLOPT_URL => 'http://localhost:1234/dataPPDB',
+        CURLOPT_URL => 'https://api.smkbudimuliapakisaji.sch.id/dataPPDB',
+        // CURLOPT_URL => 'http://localhost:1234/dataPPDB',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_POST => true,
         
