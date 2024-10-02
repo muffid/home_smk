@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <div class="container" style="padding-right: 650px;">
+    <div class="container">
         <hr>
     </div>
     <section id="about" class="about mt-0">
