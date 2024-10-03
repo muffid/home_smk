@@ -27,7 +27,7 @@
         </div>
     </section>
     <div class="container">
-        <hr style="width: 25%;">
+        <hr style="width: 45%;">
     </div>
     <section id="about" class="about mt-0">
         <div class="container aos-init aos-animate" data-aos="fade-up">
@@ -123,10 +123,14 @@
         <div class="container aos-init aos-animate mt-5" data-aos="fade-up">
             <div class="row align-items-center">
                 <div class="col-lg-5 pt-4 pt-lg-0 order-1 order-lg-2 content">
-                    <p>Dengan Bergabung di SMK Budi Mulia Pakisaji Kalian tidak Menunggu <b>LULUS</b> Baru bisa Dapat
-                        <b>PENGHASILAN</b> Tapi Saat <b>SEKOLAH</b> Kalian Sudah Bisa Dapat <b>Gaji</b> & dapat
-                        <b>Bersekolah Gratis</b>.
-                    </p>
+                    <h3>✨ Kenapa Pilih SMK Budi Mulia Pakisaji?</h3>
+                    <ul>
+                        <li><i class="bi bi-check2-circle"></i> Fasilitas lengkap & modern</li>
+                        <li><i class="bi bi-check2-circle"></i> Pembelajaran berbasis praktik langsung</li>
+                        <li><i class="bi bi-check2-circle"></i> Kemitraan dengan industri terkemuka</li>
+                        <li><i class="bi bi-check2-circle"></i> Jalur cepat menuju dunia kerja atau kuliah</li>
+                    </ul>
+
                 </div>
                 <div class="col-lg-7 pt-4 pt-lg-0 order-2 order-lg-1">
                     <img src="img/img7.png" class="img-fluid" alt="Gedung2">
@@ -140,8 +144,13 @@
                     <img src="img/img2222.png" class="img-fluid" alt="Gedung2">
                 </div>
                 <div class="col-lg-8 pt-4 pt-lg-0 order-1 order-lg-1 content">
-                    <p>jadi gimana Kalian Tertarik gak nih?? Segera Daftarkan Diri Kalian Disini dan dapatkan bonus
-                        menarik lainnya <b>bagi 100 pendaftar pertama</b>. untuk daftar bisa klik link di bawah ini.</p>
+                    <h3>🔥 Promo Spesial untuk Pendaftaran 2025/2026!</h3>
+                    <p> Daftarkan dirimu sekarang dan dapatkan Cashback Uang Pendaftaran di setiap gelombang! 🤑</p>
+                    <h4>🔔 Peluangmu ada di sini!</h4>
+                    <p>Jangan biarkan kesempatan emas ini terlewatkan. Daftarkan dirimu sekarang dan jadilah bagian
+                        dari generasi profesional yang siap menghadapi tantangan masa depan.
+                        <b> 👇 Klik tombol di bawah ini untuk mulai perjalanan karier suksesmu!</b>
+                    </p>
                 </div>
             </div>
         </div>
@@ -149,12 +158,12 @@
     <section id="" class="container text-center my-0">
         <div class="row justify-content-around">
             <div class="col-6">
-                <a href="daftar" class="btn-get-started text-white" style="font-size:13px;">Daftar Sekarang</a>
+                <a href="daftar" class="btn-get-started text-white" style="font-size:12px;">Daftar Sekarang</a>
             </div>
             <div class="col-6">
                 <!--<a href="https://wa.me/+6289513009008 "></a>-->
                 <a href="https://api.whatsapp.com/send?phone=6289513009008&text=Hai%20admin,%0Aboleh%20tanya%20tentang%20*PPDB%20SMK%20Budi%20Mulia%20Pakisaji*"
-                    class="btn-get-started text-center text-white" style="font-size:13px;">
+                    class="btn-get-started text-center text-white" style="font-size:12px;">
                     <i class="bi bi-whatsapp"></i> Hubungi Kami
                 </a>
             </div>
