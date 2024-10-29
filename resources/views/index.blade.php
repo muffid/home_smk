@@ -10,7 +10,7 @@
         <div class="carousel-inner" role="listbox">
 
             <!-- Slide 1 -->
-            <div class="carousel-item active" style="background-image: url(assets/aset/baner/smkbm.jpg)">
+            <div class="carousel-item active" style="background-image: url(assets/aset/baner/bg.png)">
                 <div class="carousel-container">
                     <div class="container">
                         <h2 class="animate__animated animate__fadeInDown">Selamat Datang di <span>SMKBM</span></h2>
@@ -167,9 +167,9 @@
                     <img src="{{$caro->gambar}}" class="w-100 rounded-3" alt="{{$caro->judul}}"
                         style="height: 300px;object-fit: cover;">
                 </div>
-                <div class="d-flex justify-content-center">
-                    <div class="card border-0 p-2 text-center d-flex mb-5 shadow justify-content-center align-items-center"
-                        style="z-index:1000; margin-top:-45px; width:90%;">
+                <div class="d-flex">
+                    <div class="card border-0  p-4 text-center d-flex mb-5 shadow justify-content-center align-items-center"
+                        style="z-index:1000; margin-top:-45px;  border-radius: 0 0 7px 7px;   ">
                         <a href="{{$caro->url}}" class="stretched-link">
                             <h6 class="text-dark">{{$caro->judul}}</h6>
                         </a>
