@@ -44,7 +44,7 @@
             </div>
 
             <!-- Slide 5 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/banner333.webp)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/sija.png)">
                 <div class="carousel-container">
                     <div class="container">
                         <h2 class="animate__animated animate__fadeInDown">Sistem Informatika dan Jaringan Aplikasi</h2>
