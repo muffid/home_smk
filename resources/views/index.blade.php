@@ -3,17 +3,20 @@
 @section('title', 'Berita SMK BM')
 @section('content')
 <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade d-flex justify-content-start"
+        data-bs-ride="carousel">
 
         <!-- <ol class="carousel-indicators" id="hero-carousel-indicators"></ol> -->
 
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner " role="listbox">
 
             <!-- Slide 1 -->
             <div class="carousel-item active" style="background-image: url(assets/aset/baner/bg.png)">
-                <div class="carousel-container">
+                <div class="carousel-container ">
                     <div class="container">
-                        <h2 class="animate__animated animate__fadeInDown">Selamat Datang di <span>SMKBM</span></h2>
+                        <h2 class="animate__animated animate__fadeInDown ">Selamat Datang di
+                            <span>SMKBM</span>
+                        </h2>
                         <p class="animate__animated animate__fadeInUp">"Tidak ada anak tidak bisa sekolah karena biaya"
                         </p>
                         <!--<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Selengkapnya..</a>-->
@@ -44,9 +47,9 @@
             </div>
 
             <!-- Slide 5 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/sija1.png)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/sijaok.png)">
                 <div class="carousel-container">
-                    <div class="container">
+                    <div class="container text-sm-start">
                         <h2 class="animate__animated animate__fadeInDown">Sistem Informatika dan Jaringan Aplikasi</h2>
                         <!--<p class="animate__animated animate__fadeInUp text-truncate">Sistem Informatika dan Jaringan Aplikasi (SIJA) merupakan kompetensi keahlian baru berbasis Teknologi Informasi dan Komunikasi pada program keahlian Teknik Komputer dan Informatika yang mulai dibuka pada Tahun Pelajaran 2017/2018 untuk program pendidikan SMK dengan pembelajaran Empat (4) Tahun. Sesuai dengan Keputusan Dirjen Dikdasmen Kemendikbud Nomor: 4678/D/KEP/MK/2016.-->
                         <!--  SIJA merupakan pembelajaran di SMK selama 4 tahun yang terbagi menjadi dua 2 model belajar, yaitu belajar di sekolah selama 3 tahun dan belajar di industry selama 1 tahun</p>-->
