@@ -25,7 +25,7 @@
             </div>
 
             <!-- Slide 2 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/tkj.jpg)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/4.png)">
                 <div class="carousel-container">
                     <div class="container">
                         <h2 class="animate__animated animate__fadeInDown">Teknik Komputer & Jaringan</h2>
@@ -36,10 +36,10 @@
             </div>
 
             <!-- Slide 3 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/bd.jpg)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/5.png)">
                 <div class="carousel-container">
                     <div class="container">
-                        <h2 class="animate__animated animate__fadeInDown">Bisnis Digital</h2>
+                        <h2 class="animate__animated animate__fadeInDown">Desain Komunikasi Visual</h2>
                         <!--<p class="animate__animated animate__fadeInUp text-truncate">Desain Komunikasi Visual (DKV) adalah cabang ilmu desain yang mempelajari konsep komunikasi dan ungkapan kreatif, teknik dan media dengan memanfaatkan elemen-elemen visual ataupun rupa untuk menyampaikan pesan untuk tujuan tertentu (tujuan informasi ataupun tujuan persuasi yaitu mempengaruhi perilaku).</p>-->
                         <!--<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Selengkapnya</a>-->
                     </div>
@@ -47,10 +47,10 @@
             </div>
 
             <!-- Slide 4 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/dkv.jpg)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/2.png)">
                 <div class="carousel-container">
                     <div class="container text-sm-start">
-                        <h2 class="animate__animated animate__fadeInDown">Desain Komunikasi Visual</h2>
+                        <h2 class="animate__animated animate__fadeInDown">Bisnis Digital</h2>
                         <!--<p class="animate__animated animate__fadeInUp text-truncate">Sistem Informatika dan Jaringan Aplikasi (SIJA) merupakan kompetensi keahlian baru berbasis Teknologi Informasi dan Komunikasi pada program keahlian Teknik Komputer dan Informatika yang mulai dibuka pada Tahun Pelajaran 2017/2018 untuk program pendidikan SMK dengan pembelajaran Empat (4) Tahun. Sesuai dengan Keputusan Dirjen Dikdasmen Kemendikbud Nomor: 4678/D/KEP/MK/2016.-->
                         <!--  SIJA merupakan pembelajaran di SMK selama 4 tahun yang terbagi menjadi dua 2 model belajar, yaitu belajar di sekolah selama 3 tahun dan belajar di industry selama 1 tahun</p>-->
                         <!--<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">selengkapnya</a>-->
@@ -59,7 +59,7 @@
             </div>
 
             <!-- Slide 5 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/sija.jpg)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/1.png)">
                 <div class="carousel-container">
                     <div class="container text-sm-start">
                         <h2 class="animate__animated animate__fadeInDown">Sistem Informatika dan Jaringan Aplikasi</h2>
@@ -71,7 +71,7 @@
             </div>
 
             <!-- Slide 6 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/tbkr.jpg)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/3.png)">
                 <div class="carousel-container">
                     <div class="container text-sm-start">
                         <h2 class="animate__animated animate__fadeInDown">Teknik Body Kendaraan Ringan</h2>
