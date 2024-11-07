@@ -71,7 +71,7 @@
             </div>
 
             <!-- Slide 6 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/tbkr.png)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/tbkr.jpg)">
                 <div class="carousel-container">
                     <div class="container text-sm-start">
                         <h2 class="animate__animated animate__fadeInDown">Teknik Body Kendaraan Ringan</h2>
