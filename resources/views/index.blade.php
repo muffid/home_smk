@@ -25,7 +25,7 @@
             </div>
 
             <!-- Slide 2 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/4.png)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/tkj.png)">
                 <div class="carousel-container">
                     <div class="container">
                         <h2 class="animate__animated animate__fadeInDown">Teknik Komputer & Jaringan</h2>
@@ -36,7 +36,7 @@
             </div>
 
             <!-- Slide 3 -->
-            <div class="carousel-item" style="background-image: url(assets/aset/baner/5.png)">
+            <div class="carousel-item" style="background-image: url(assets/aset/baner/dkv.png)">
                 <div class="carousel-container">
                     <div class="container">
                         <h2 class="animate__animated animate__fadeInDown">Desain Komunikasi Visual</h2>
