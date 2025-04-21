@@ -10,7 +10,8 @@
 
         <div class="carousel-inner " role="listbox">
 
-            <!-- Slide 1 -->
+            <!-- Slide 1 untuk halaman depan-->
+
             <div class="carousel-item active" style="background-image: url(assets/aset/baner/bg.jpg)">
                 <div class="carousel-container ">
                     <div class="container">
