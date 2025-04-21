@@ -15,7 +15,7 @@
             <div class="carousel-item active" style="background-image: url(assets/aset/baner/bg.jpg)">
                 <div class="carousel-container ">
                     <div class="container">
-                        <h2 class="animate__animated animate__fadeInDown ">Selamat Datang di
+                        <h2 class="animate__animated animate__fadeInDown ">Selamat Datang dismk
                             <span>SMKBM</span>
                         </h2>
                         <p class="animate__animated animate__fadeInUp">"Tidak ada anak tidak bisa sekolah karena biaya"
